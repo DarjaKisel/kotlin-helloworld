@@ -14,6 +14,26 @@ fun main() {
     println("The value of $nominator divided by $denominator is ${nominator/denominator}")
 
     println("The employee id is ${emp1.id}")
+
+    // RAW Strings
+
+    //val filePath = "C:\dirName\folderName\file.txt" - error, need escape slashes
+    val filePath = """C:\dirName\folderName\file.txt"""
+
+    //multiline
+    val name = "cat"
+    val aLongText =
+     """There was
+        |a really long text
+        |about a $name
+        |and stuff""".trimMargin()
+    println(aLongText)
+
+    val oneOne = """    1
+        |   11
+        |  111
+        | 1111""".trimMargin()
+    println(oneOne)
 }
 
 class EmployeeWithToString(var name: String, val id: Int) {
