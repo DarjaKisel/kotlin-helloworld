@@ -1,4 +1,4 @@
-package me.dzinevich.accessmodifiers
+package me.dzinevich._6_classes_functions_inheritance.accessmodifiers
 
 /**
  *  1. on the top level

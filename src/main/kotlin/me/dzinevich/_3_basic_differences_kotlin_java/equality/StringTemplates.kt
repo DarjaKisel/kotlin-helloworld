@@ -1,4 +1,4 @@
-package me.dzinevich
+package me.dzinevich._3_basic_differences_kotlin_java.equality
 
 fun main() {
     val emp1 = Employee("Alex", 111)

@@ -1,4 +1,4 @@
-package me.dzinevich.equality;
+package me.dzinevich._3_basic_differences_kotlin_java.equality;
 
 public class JavaEmployee {
 

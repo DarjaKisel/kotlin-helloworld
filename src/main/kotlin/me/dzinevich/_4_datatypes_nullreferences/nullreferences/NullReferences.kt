@@ -1,4 +1,4 @@
-package me.dzinevich.nullreferences
+package me.dzinevich._4_datatypes_nullreferences.nullreferences
 
 fun main() {
     //val str: String = null -> can't do this

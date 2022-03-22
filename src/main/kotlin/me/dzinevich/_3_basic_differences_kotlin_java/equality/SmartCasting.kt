@@ -1,5 +1,7 @@
 package me.dzinevich
 
+import me.dzinevich._3_basic_differences_kotlin_java.equality.Employee
+
 fun main() {
     val emp = Employee("Darya", 123)
     val something: Any = emp

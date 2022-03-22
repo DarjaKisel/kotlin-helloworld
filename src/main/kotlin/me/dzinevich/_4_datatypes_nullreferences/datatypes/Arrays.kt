@@ -1,4 +1,4 @@
-package me.dzinevich.datatypes
+package me.dzinevich._4_datatypes_nullreferences.datatypes
 
 import me.dzinevich.DummyClass
 
