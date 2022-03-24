@@ -37,8 +37,22 @@ fun main() {
     println(some1.someString)
     println(some2.someString)
 
+    wantsSomeInterface(object: SomeInterface {
+        override fun mustImplement(num: Int): String {
+            return "This is from Must Implement ${num*100}"
+        }
+    } )
 }
 
 // you can use companion objects to access private constructors
 // -> to implement a factory pattern!
 
+// Anonymous objects
+
+interface SomeInterface {
+    fun mustImplement(num: Int): String
+}
+
+fun wantsSomeInterface(si: SomeInterface) {
+    println("Want Some Interface: ${si.mustImplement(22)}")
+}
