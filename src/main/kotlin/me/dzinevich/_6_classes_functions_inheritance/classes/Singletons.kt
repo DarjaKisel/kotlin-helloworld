@@ -14,7 +14,8 @@ import java.time.Year
 object SomeInfo {
     val currYear = Year.now().value
     fun someInfo() = "The Information"
-    fun getCopyRight() = "The Copyright \u00A9 $currYear"
+    internal fun getCopyRight() = "The Copyright \u00A9 $currYear"
+    // INTERNAL will NOT be visible when imported to another MODULE
 }
 
 
