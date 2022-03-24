@@ -1,8 +1,8 @@
 package me.dzinevich.imports
 
-import me.dzinevich._6_classes_functions_inheritance.functions.upperFirstAndLast as up
-import me.dzinevich._6_classes_functions_inheritance.classes.SomeInfo as Info
-import me.dzinevich._6_classes_functions_inheritance.packages.topLevelFunction as func
+import me.dzinevich._5_classes_functions_inheritance.functions.upperFirstAndLast as up
+import me.dzinevich._5_classes_functions_inheritance.classes.SomeInfo as Info
+import me.dzinevich._5_classes_functions_inheritance.packages.topLevelFunction as func
 
 fun main() {
     println("Package name doesn't match the real file location!")

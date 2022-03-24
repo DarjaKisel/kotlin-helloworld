@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.inheritance
+package me.dzinevich._5_classes_functions_inheritance.inheritance
 
 // everything in kotlin is public and final by default
 // so you can't extend classes as they're final by default

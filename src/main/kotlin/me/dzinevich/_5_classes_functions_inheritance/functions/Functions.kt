@@ -1,6 +1,6 @@
-package me.dzinevich._6_classes_functions_inheritance.functions
+package me.dzinevich._5_classes_functions_inheritance.functions
 
-import me.dzinevich._6_classes_functions_inheritance.properties.Car
+import me.dzinevich._5_classes_functions_inheritance.properties.Car
 
 // functions in classes == methods, member functions
 // default return type is Unit

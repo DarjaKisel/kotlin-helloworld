@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance
+package me.dzinevich._5_classes_functions_inheritance
 
 open class KotlinBicycle(var cadence: Int, var gear: Int = 10, var speed: Int) {
     fun applyBrake(decrement: Int) = run { this.speed -= decrement }

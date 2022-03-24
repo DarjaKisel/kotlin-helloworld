@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.properties
+package me.dzinevich._5_classes_functions_inheritance.properties
 
 // kotlin has no fields, only properties
 

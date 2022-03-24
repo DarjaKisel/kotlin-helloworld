@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.classes
+package me.dzinevich._5_classes_functions_inheritance.classes
 
 enum class Department(val fullName: String, val employees: Int) {
     HR("Human Resources", 5),

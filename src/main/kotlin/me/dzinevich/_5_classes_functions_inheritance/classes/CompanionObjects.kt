@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.classes
+package me.dzinevich._5_classes_functions_inheritance.classes
 
 class SomeClass private constructor(val someString: String) {
 

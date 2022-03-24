@@ -1,6 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.properties
-
-import me.dzinevich._3_basic_differences_kotlin_java.equality.Employee
+package me.dzinevich._5_classes_functions_inheritance.properties
 
 // main purpose - storing state
 // in data class we have: toString + equals + hashcode + copy

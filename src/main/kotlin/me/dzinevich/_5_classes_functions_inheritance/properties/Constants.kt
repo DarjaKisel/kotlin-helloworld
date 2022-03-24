@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.properties
+package me.dzinevich._5_classes_functions_inheritance.properties
 
 // top level constant
 val MY_CONSTANT = 100

@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.inheritance
+package me.dzinevich._5_classes_functions_inheritance.inheritance
 
 interface MyInterface {
     val num: Int

@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.functions
+package me.dzinevich._5_classes_functions_inheritance.functions
 
 // extension functions - can extend any class you want with a function
 fun main() {

@@ -1,4 +1,4 @@
-package me.dzinevich._6_classes_functions_inheritance.functions
+package me.dzinevich._5_classes_functions_inheritance.functions
 
 fun function_NotInline(op1: Int, op2: Int, label: String) = "${label} ${op1 * op2}"
 
