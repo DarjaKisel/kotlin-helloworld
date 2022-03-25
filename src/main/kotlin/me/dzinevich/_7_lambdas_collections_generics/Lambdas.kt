@@ -1,13 +1,14 @@
 package me.dzinevich._7_lambdas_collections_generics
 
+val employees = listOf(
+    Employee("John", "Smith", 2015),
+    Employee("Josh", "Johnson", 2020),
+    Employee("Alex", "Long", 2018)
+)
+
 fun main() {
     // run { println("I'm in a lambda!") } // run a lambda using Run statement
 
-    val employees = listOf(
-        Employee("John", "Smith", 2015),
-        Employee("Josh", "Johnson", 2020),
-        Employee("Alex", "Long", 2018)
-    )
     println(employees.minByOrNull { e -> e.startYear })
     // we can use _it_ when there's a single parameter and compiler can infer the type
     println(employees.minByOrNull { it.startYear })
