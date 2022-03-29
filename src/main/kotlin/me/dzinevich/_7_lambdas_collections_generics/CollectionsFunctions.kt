@@ -1,14 +1,14 @@
 package me.dzinevich._7_lambdas_collections_generics
 
+val immutableMap = mapOf<String, Car>(
+    "Porche" to Car("red", "porche", 2019),
+    "Ford" to Car("red", "Ford", 2015),
+    "BMW" to Car("black", "bmw", 2017),
+    "Ford2" to Car("silver", "Ford", 2022),
+    "Opel" to Car("silver", "Opel", 2018))
+
 fun main() {
     val setInts = setOf(1,2,3,4,5,67,-1)
-
-    val immutableMap = mapOf<String, Car>(
-        "Porche" to Car("red", "porche", 2019),
-        "Ford" to Car("red", "Ford", 2015),
-        "BMW" to Car("black", "bmw", 2017),
-        "Ford2" to Car("silver", "Ford", 2022),
-        "Opel" to Car("silver", "Opel", 2018))
 
     // 1. filter
 
