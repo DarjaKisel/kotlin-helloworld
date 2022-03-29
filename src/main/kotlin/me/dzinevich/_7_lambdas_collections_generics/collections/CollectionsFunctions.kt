@@ -1,5 +1,7 @@
 package me.dzinevich._7_lambdas_collections_generics
 
+import me.dzinevich._7_lambdas_collections_generics.collections.Car
+
 val immutableMap = mapOf<String, Car>(
     "Porche" to Car("red", "porche", 2019),
     "Ford" to Car("red", "Ford", 2015),

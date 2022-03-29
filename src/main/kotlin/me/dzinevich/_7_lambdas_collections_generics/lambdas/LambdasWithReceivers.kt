@@ -1,5 +1,7 @@
 package me.dzinevich._7_lambdas_collections_generics
 
+import me.dzinevich._7_lambdas_collections_generics.lambdas.Employee
+import me.dzinevich._7_lambdas_collections_generics.lambdas.employees
 import java.lang.StringBuilder
 
 fun countTo100(): String {

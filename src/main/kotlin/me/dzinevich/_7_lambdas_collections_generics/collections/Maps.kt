@@ -1,4 +1,4 @@
-package me.dzinevich._7_lambdas_collections_generics
+package me.dzinevich._7_lambdas_collections_generics.collections
 
 fun main() {
 

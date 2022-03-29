@@ -1,4 +1,4 @@
-package me.dzinevich._7_lambdas_collections_generics
+package me.dzinevich._7_lambdas_collections_generics.lambdas
 
 val employees = listOf(
     Employee("John", "Smith", 2015),
