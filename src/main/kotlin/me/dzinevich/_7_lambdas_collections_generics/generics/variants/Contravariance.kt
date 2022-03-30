@@ -65,6 +65,9 @@ class Dog(override val name: String): Animal(name) {}
 
 // we made the Interface a contravariant by adding IN before the type
 // WE WILL ACCEPT ALL TYPES THAT HAVE T -IN- THEIR INHERITANCE TREE
+
+// it is declaration-side variance (we declared Generic type on an interface)
+
 interface AnimalCare<in T> { // we accept whatever a T is and any of it's super-classes
     fun groom(animal: T)
 

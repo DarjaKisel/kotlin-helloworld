@@ -28,6 +28,8 @@ package me.dzinevich._7_lambdas_collections_generics.generics.variants
  *
  * COVARIANTS are used to PRESERVE SUB-TYPING
  *
+ * IN and OUT are only allowed for type parameters of CLASSES and INTERFACES
+ *
  */
 fun main() {
     val shortList: List<Short> = listOf(1,2,3,45,5)
@@ -86,6 +88,8 @@ class Rose: Flower() {
  *
  * WE ACCEPT ALL THE TYPES THAT ARE MADE -OUT- OF FLOWER
  */
+
+// it is declaration-side variance (we declared Generic type on a class)
 class Garden<out T: Flower>(val something: T, private var somethingElse: T) {
 
     val flowers: List<T> = listOf()
