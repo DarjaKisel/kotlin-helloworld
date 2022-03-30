@@ -26,6 +26,8 @@ package me.dzinevich._7_lambdas_collections_generics.generics.variants
  * Covariant = соизменимый (changing together)
  * Invariant = неизменный (never changing)
  *
+ * COVARIANTS are used to PRESERVE SUB-TYPING
+ *
  */
 fun main() {
     val shortList: List<Short> = listOf(1,2,3,45,5)
@@ -81,6 +83,8 @@ class Rose: Flower() {
  * >- but is you have a var variable of type T - you can't use co-variant (because Kotlin generates a setter method,
  * and you can't have a sub-type T as a parameter in a setter
  * >-- you can use IN and OUT in PRIVATE :) no need to protect anything
+ *
+ * WE ACCEPT ALL THE TYPES THAT ARE MADE -OUT- OF FLOWER
  */
 class Garden<out T: Flower>(val something: T, private var somethingElse: T) {
 
