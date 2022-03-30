@@ -7,7 +7,7 @@ import java.math.BigDecimal
 /**
  *  -- INLINE FUNCTIONS CAN BE REIFIED (materialized)
  *  -- REIFICATION ---> materialization
- *  -- IS A KOTLIN FEATURE THAT PREVENTS A TYPE <T> BEING ERASED AT RUNTIME
+ *  -- IS A KOTLIN FEATURE THAT PREVENTS A TYPE <T> FROM BEING ERASED AT RUNTIME
  *
  * If you declare a function as INLINE
  * and a type parameter is REIFIED
